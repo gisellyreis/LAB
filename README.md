@@ -16,6 +16,7 @@ respectivamente, o número de caixas dispostas e o número de caixas selecionada
 segunda linha contém ‘N’ inteiros separados por espaços onde o i-ésimo inteiro
 representa o conteúdo da i-ésima caixa. Analogamente, a terceira linha consiste dos ‘M’
 identificadores das caixas selecionadas. A numeração das caixas começa em um.
+
 Saída:
 Seu programa deve imprimir uma única linha que diz “povoa” ou “jogador”, com base
 naquele que tiver vencido.
