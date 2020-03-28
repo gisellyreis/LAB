@@ -9,6 +9,7 @@ mente foi a de distribuir inteiros aleatórios em caixas numeradas e pedir ao jo
 selecionasse algumas destas caixas. Caso a soma das caixas escolhidas pelo jogador for
 um múltiplo de 3, ele vence, caso contrário, o vencedor será Póvoa. Sua tarefa é ajudar
 na implementação do jogo descrito.
+
 Entrada:
 A entrada é composta por 3 linhas. A primeira linha é composta por dois inteiros ‘N’ e ‘M’,
 respectivamente, o número de caixas dispostas e o número de caixas selecionadas. A
