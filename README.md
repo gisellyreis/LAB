@@ -4,6 +4,8 @@ Resoluções de problemas propostos na disciplina Laboratório de programação
 
 A - 
 Escolha as Caixas
+Autor: Antônio Dias
+
 Póvoa está tentando desenvolver um novo jogo de azar. Uma das ideias que lhe veio à
 mente foi a de distribuir inteiros aleatórios em caixas numeradas e pedir ao jogador que
 selecionasse algumas destas caixas. Caso a soma das caixas escolhidas pelo jogador for
@@ -20,4 +22,3 @@ identificadores das caixas selecionadas. A numeração das caixas começa em um.
 Saída:
 Seu programa deve imprimir uma única linha que diz “povoa” ou “jogador”, com base
 naquele que tiver vencido.
-
