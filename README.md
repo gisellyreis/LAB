@@ -22,3 +22,22 @@ identificadores das caixas selecionadas. A numeração das caixas começa em um.
 Saída:
 Seu programa deve imprimir uma única linha que diz “povoa” ou “jogador”, com base
 naquele que tiver vencido.
+
+
+C -
+Tópicos de Estudo
+Autor: Antônio Dias
+
+Visando fixar melhor os assuntos vistos em sala, você surgiu com uma maneira menos
+ortodoxa de estudar. Após listar cada assunto na ordem em que foi ensinado, você os
+colocou em ordem alfabética inversa e atribuiu um tempo fixo de estudo/descanso para
+cada um.
+
+Entrada:
+A entrada é composta por várias linhas. Cada linha i consiste de uma string S,
+correspondente ao i-ésimo assunto visto em um dia.
+A entrada termina com EOF.
+
+Saída:
+Seu programa deve imprimir o mesmo número de linhas da entrada, ordenadas de
+maneira lexicograficamente decrescente.
