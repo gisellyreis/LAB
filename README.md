@@ -41,3 +41,4 @@ A entrada termina com EOF.
 Saída:
 Seu programa deve imprimir o mesmo número de linhas da entrada, ordenadas de
 maneira lexicograficamente decrescente.
+
