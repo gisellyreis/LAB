@@ -8,9 +8,10 @@ int main() {
     cin>> n;
     string simb;
     cin.ignore();
-    stack<char>p;
+    
 
     for(int i=0; i< n; i++) {
+        stack<char>p;
         getline(cin, simb);
         int tam = simb.size();
 
