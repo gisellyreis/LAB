@@ -40,3 +40,13 @@ A entrada é composta por várias linhas. A primeira linha consiste de um inteir
 Saída: 
 Seu programa deve imprimir N linhas, cada uma com o título de um livro ordenados conforme deve ser a organização da estante.
 
+O -  
+Aula de Defesa contra as Artes das Trevas (Use set)
+
+O novo professor de defesa contra as Artesdas Trevas, o elfo Dobbysley,ensinará a seus alunos da UFBA (Universidade de Feitiçaria para Bruxos Anônimos) como se defender do maligno Mausirius Black, que está a solta. Para a primeira aula, o professor Dobbysley deu a seus alunos diversos feitiços, que são formados por várias runas (pedras mágicas), e a tarefa deles é descobrir quantos desses feitiços são diferentes, para que assim aprendam a diferenciá-los e manipulá-los corretamente. Um feitiço é igual a outro se cada runa aparece a mesma quantidade de vezes em ambos os feitiços. Sua tarefa é ajudar os alunos escrevendo um programa que descubra quantos feitiços dados por Dobbysley são diferentes.
+
+Entrada: 
+A entrada consiste de vários casos de teste. Cada caso de teste inicia com um inteiro ‘F’ (0 ≤ ′F′ ≤ 65536 ), indicando o número de feitiços dados pelo professor. Em seguida, em cada uma das ‘F’ linhas será dado um feitiço, que possui no máximo 100 runas (Cada runa é indicada por uma letra do alfabeto de ‘A’ a ‘Z’). O último caso de teste inicia com ‘F’ = 0 e não deve ser processado.
+
+Saída: 
+Seu programa deve imprimir um inteiro indicando o número de feitiços diferentes dados por Dobbysley.
