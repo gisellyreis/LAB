@@ -62,3 +62,14 @@ A entrada é composta por várias linhas. A primeira linha é composta por dois 
 
 Saída: 
 Seu programa deve imprimir uma única linha contendo a pontuação final do jogador ou “game over” caso a torre tenha alcançado a altura máxima em algum momento.
+
+P - 
+Filhos de Papai Noel (Use set)
+
+Em um belo dia do mês de dezembro, um jovem estudante de Ciência da Computação estava cantando a seguinte musiquinha de Natal durante a aula de LAB I: “[...] Eu pensei que todo mundo fosse filho de Papai Noel, bem assim felicidade, eu pensei que fosse uma brincadeira de papel [...]”. Ouvindo isso, o professor, decidiu propor um desafio para ele. Crie um algoritmo para descobrir quem é filho de Papai Noel obedecendo às seguintes regras: Se A é filho de Papai Noel (diretamente) e B é filho de A, então B também é filho de Papai Noel (indiretamente). Em outras palavras, todo descendente de Papai Noel, é considerado filho dele. 
+
+Entrada: 
+A primeira linha da entrada consiste em dois inteiros N e M ( 1 ≤ N < M ≤ 10 ) 3 que representam a quantidade de filhos diretos do Papai Noel e a quantidade de duplas (pai e filho) a serem analisadas, respectivamente. A segunda linha contém os N filhos (diretos) do Papai Noel. As M linhas seguintes, são compostas por dois inteiros X e ( ), onde é pai de ( ). i Y i 1 ≤ X , i Y i ≤ 10 3 Xi Y i X X i ≤ i+1
+
+Saída: 
+A saída deverá ser composta apenas de um inteiro indicando a quantidade de filhos (diretos e indiretos) que o Papai Noel tem.
