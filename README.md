@@ -40,6 +40,7 @@ A entrada é composta por várias linhas. A primeira linha consiste de um inteir
 Saída: 
 Seu programa deve imprimir N linhas, cada uma com o título de um livro ordenados conforme deve ser a organização da estante.
 
+
 O -  
 Aula de Defesa contra as Artes das Trevas (Use set)
 
@@ -50,6 +51,7 @@ A entrada consiste de vários casos de teste. Cada caso de teste inicia com um i
 
 Saída: 
 Seu programa deve imprimir um inteiro indicando o número de feitiços diferentes dados por Dobbysley.
+
 
 K - 
 Tetrês
@@ -63,6 +65,7 @@ A entrada é composta por várias linhas. A primeira linha é composta por dois 
 Saída: 
 Seu programa deve imprimir uma única linha contendo a pontuação final do jogador ou “game over” caso a torre tenha alcançado a altura máxima em algum momento.
 
+
 P - 
 Filhos de Papai Noel (Use set)
 
@@ -73,3 +76,16 @@ A primeira linha da entrada consiste em dois inteiros N e M ( 1 ≤ N < M ≤ 10
 
 Saída: 
 A saída deverá ser composta apenas de um inteiro indicando a quantidade de filhos (diretos e indiretos) que o Papai Noel tem.
+
+
+Q - 
+Green Wall (use set)
+
+O desmatamento, o aquecimento global, a caça predatória, a poluição são problemas globais e estão causando diretamente a perda irreversível de espécies e a desertificação de grandes áreas. Para tentar solucionar o problema, vários países africanos se uniram em torno de um grandioso projeto: plantar um enorme muro verde cortando a África de um lado ao outro. Esperam assim barrar o avanço do grande deserto do norte e conectar vários parques e florestas que estão fragmentados. Assim, os biólogos querem fazer um estudo de quais espécies tem maior perigo de extinção mesmo conectando as regiões pelo green wall. Uma espécie corre risco de extinção se só existirem indivíduos daquela espécie em uma única região, ou seja, mesmo conectando as regiões, esta espécie não encontrará indivíduos da espécie em outra região para ter variabilidade genética. Portanto, os parques e florestas fragmentadas serão unidos uns aos outros formando um grande corredor ecológico propiciando que animais e plantas possam encontrar indivíduos de sua espécie em regiões antes separadas. Sendo assim você poderá ajudar neste grande projeto ao desenvolver um programa que diz aos biólogos quais espécies correm risco de extinção pois não existem indivíduos em outras regiões.
+
+Entrada: 
+Seu programa receberá um inteiro ‘N’ (1 < ‘N’ < 100) representando a quantidade de parques ou florestas fragmentadas no caminho do grande muro verde. Cada uma das ‘N’ linhas seguintes terá primeiro um inteiro ‘Y’ (1 <= ‘Y’ <= 2000) dizendo a quantidade de espécies diferentes observadas naquela região, seguido de ‘Y’ identificadores inteiros ‘X’ (1 <= ‘X’ <= 10^6 ), ou seja, a
+relação das espécies avistadas na região. Cada espécie possui um identificador único em todos os parques e florestas.
+
+Saída: 
+Seu programa deve apresentar um identificador por linha das espécies ameaçadas de extinção, apresentados seguindo a ordem crescente dos identificadores. Se não constar espécies em perigo o programa imprime o número zero. Note que o conjunto de espécies em extinção é dado após a junção de todas as regiões.
