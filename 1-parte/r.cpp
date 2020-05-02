@@ -42,6 +42,3 @@ int main() {
         }
     }
 }
-
-// se estar ou não estar upper -> maior 
-            //  lower -> se estar retorna ele se não estar retorna
