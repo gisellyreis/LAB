@@ -43,5 +43,4 @@ int main() {
         cout<<' '<< v[i].numero;
     }
         cout<<endl;
-
 }
