@@ -26,6 +26,5 @@ int main() {
             s.erase(it);
         }
         */
-    }
-    
+    }   
 }
