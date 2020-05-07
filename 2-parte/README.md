@@ -52,3 +52,15 @@ Seu programa receberá primeiramente um inteiro ‘N’ (1 ≤ ‘N’ ≤ 10000
 
 Saída: 
 Seu programa deverá imprimir na primeira linha o nome do planeta onde nasceram mais Jedi, seguido do número de Jedi que ali nasceram. Nas próximas ‘N’-1 linhas você deverá imprimir em ordem alfabética o nome dos outros planetas e a quantidade de Jedi que nasceram naqueles planetas. É garantido que sempre haverá um único planeta com o maior número de nascimentos de Jedi.
+
+
+E - 
+Colônias marcianas (use map)
+
+Começou a era da colonização de novos mundos e o primeiro planeta dessa aventura humana será Marte. Milhares de terráqueos foram selecionados para serem os primeiros colonos. Os cientistas e empresários responsáveis pelo projeto criaram ‘N’ colônias espalhadas pelo planeta vermelho. Sabendo de seu talento em programação o Prof. Rubisley te contratou para gerenciar esta delicada operação de distribuição dos ‘C’ novos colonos marcianos. Cada colono possui um identificador único em Marte e cada colônia possui um identificador único começando em 1. Será fornecido a você uma listagem dos identificadores dos colonos já na ordem em que foram selecionados. Você deverá distribuir os ‘N’ primeiros colonos um para cada uma das ‘N’ colônias, sendo o primeiro colono para a colônia 1, o segundo colono para a colônia 2, e assim sucessivamente. Os próximos ‘N’ colonos irão um para cada uma das ‘N’ colônias novamente, e assim sucessivamente até terminar a distribuição. Assim cada colono estará associado a uma colônia e fica fácil encontrá-lo no mapeamento.
+
+Entrada: 
+Seu programa receberá primeiramente um inteiro ‘N’ (2 ≤ ‘N’ ≤ 100) representando a quantidade de colônias em Marte. Em seguida outro inteiro ‘C’ (‘N’ ≤ ‘C’ ≤ 10000) representando a quantidade de colonos. Por fim teremos ‘C’ inteiros representando o identificador de cada colono.
+
+Saída: 
+Seu programa deverá imprimir ‘N’ linhas. Em cada uma destas linhas você deverá imprimir os identificadores (ordenados crescentemente) dos colonos de cada colônia, começando pela colônia de número 1, e assim sucessivamente.
