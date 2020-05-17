@@ -1,5 +1,5 @@
 # LAB
-Resoluções de problemas propostos na disciplina Laboratório de programação 1º parte
+Resoluções de problemas propostos na disciplina Laboratório de programação 2º parte
 
 A - 
 Organizando o inventário
@@ -64,3 +64,38 @@ Seu programa receberá primeiramente um inteiro ‘N’ (2 ≤ ‘N’ ≤ 100) 
 
 Saída: 
 Seu programa deverá imprimir ‘N’ linhas. Em cada uma destas linhas você deverá imprimir os identificadores (ordenados crescentemente) dos colonos de cada colônia, começando pela colônia de número 1, e assim sucessivamente.
+
+
+F - 
+C­3PO (use map)
+
+No universo Star Wars, o personagem C­3PO é um dróide de protocolo que tinha a capacidade de falar e entender mais de seis milhões de idiomas. Uma de suas principais funções, como dróide de protocolo, era ajudar na tradução de conversas e textos. C­3PO foi construído em Affa e foi companheiro por muito tempo do dróide astromecânico R2­D2. Quase 80 anos depois de sua criação ele foi destruído e descartado nas ruas de Mos Espa, uma cidade em Tatooine. Depois foi reconstruído pelo escravo Anakin Skywalker que pediu sua ajuda para desenvolver um algoritmo de tradução Tatooinês­Português. Assim, dado o dicionário e um trecho de um texto, seu algoritmo deve imprimir a tradução.
+
+Entrada: 
+A primeira linha contém um inteiro ‘T’ que indica o número de casos de testes. Cada caso de teste é composto inicialmente por dois inteiros ‘P’ e ‘L’ (1 ≤ ‘P’ ≤ 1000000, 1 ≤ ‘L’ ≤ 1000), que representam o número de palavras no dicionário e o número de linhas do texto a ser traduzido, respectivamente. Os próximos ‘P’ pares de linhas contêm os pares de tradução: a primeira linha de cada par contém a palavra em Tatooinês, e a próxima contém a tradução para o português (não necessariamente apenas uma palavra, pode ser uma frase). Todas as palavras são constituídas apenas por letra minúsculas. É garantido que cada palavra em Tatooinês aparece apenas uma vez em cada caso de teste. As próximas ‘L’ linhas contêm o texto a ser traduzido. Cada linha do texto é uma lista de palavras separadas por espaço. Algumas linhas podem estar vazias, mas nenhuma linha possui espaços em branco no início ou no final. É garantido que o texto a ser traduzido em cada linha não possui mais que 80 caracteres.
+
+Saída: 
+Para cada caso de teste imprima as ‘L’ linhas traduzidas. As palavras que não estão no dicionário devem ser impressas como aparecem na entrada. Imprima uma linha em branco no final de cada tradução. É garantido que nenhuma linha da saída possui mais que 80 caracteres.
+
+Ex: 
+Entrada:  
+1
+5 3
+starkipus
+uma gigantesca estação espacial
+jedi
+guerreiro
+supyrukis
+i am your father
+odassap
+a long time ago in a galaxy far far away
+darthvader
+nascido anakin skywalker
+odassap
+vader darthvader era um jedi
+luke ouviu supyrukis em starkipus
+
+Saída:  
+a long time ago in a galaxy far far away
+vader nascido anakin skywalker era um guerreiro
+luke ouviu i am your father em uma gigantesca estação espacial
