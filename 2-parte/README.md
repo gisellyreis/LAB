@@ -99,3 +99,112 @@ Saída:
 a long time ago in a galaxy far far away
 vader nascido anakin skywalker era um guerreiro
 luke ouviu i am your father em uma gigantesca estação espacial
+
+
+G - 
+Viagem Interdimensional
+Rick e Morty estão sempre viajando entre dimensões,
+procurando alguma confusão imprevisível. Morty está
+cansado de ser arrastado apenas para as dimensões que
+Rick acha importantes, portanto, fez uma lista de todas as
+dimensões que ele gostaria de visitar desta vez. Rick
+aceitou o pedido, mas apenas para não ouvir Morty
+choramingar.
+Sua tarefa é determinar, dada a lista de dimensões disponíveis no
+universo e a lista de pedidos de Morty, quantas viagens serão atendidas pelo
+seu avô.
+Entrada:
+A primeira linha da entrada contém dois números inteiros ‘N’ (1 ≤ ‘N’ ≤
+1000000) e ‘M’ (1 ≤ ‘M’ ≤ 100000), indicando respectivamente o número de
+dimensões disponíveis no universo e o número de dimensões que morty
+deseja visitar.
+A segunda linha de entrada possui ‘N’ inteiros em ordem crescente,
+indicando as dimensões disponíveis no universo.
+A terceira e última linha contém ‘M' inteiros, indicando a lista de
+dimensões que Morty deseja visitar.
+Saída:
+A saída é composta de uma única linha, o número de dimensões que
+morty conseguirá visitar.
+
+
+H - 
+Viagem para Marte
+Bem vindos a era da
+colonização espacial.
+Milhões de terráqueos se
+inscreveram para concorrer a
+passagens só de ida para Marte.
+Os cientistas e empresários
+responsáveis pelo projeto
+desenvolveram testes técnicos,
+físicos, psicológicos e emocionais
+para testar os candidatos. Assim,
+serão selecionados os mais aptos,
+ou seja, aqueles com maiores
+notas.
+Os candidatos estão
+eufóricos para saber se serão os
+novos colonos. Sabendo de seu talento em programação o Prof. Rubisley te contratou para
+gerenciar esta delicada operação de seleção dos ‘N’ colonos marcianos.
+Entrada
+Seu programa receberá primeiramente um inteiro ‘N’ (2 ≤ ‘N’ ≤ 100000) representando
+a quantidade de candidatos. A seguir será dado um inteiro ‘Q’ (1 ≤ ‘Q’ ≤ ‘N’) representando a
+quantidade de candidatos que serão selecionados. Na sequência teremos ‘N’ linhas contendo
+em cada, um inteiro ‘Ni’ (0 ≤ ‘NQi’ ≤ 1000000000) representando a nota do candidato i. Por fim
+teremos um inteiro ‘C’ (1 ≤ ‘C’ ≤ ‘Q’) representando o número de consultas que serão feitas
+pelos candidatos. Por fim, serão dados ‘C’ inteiros ‘NCi’ representando a nota do candidato ‘Ci’
+que quer saber se foi selecionado.
+Saída
+Seu programa deverá imprimir ‘Sim’ ou ‘Nao’, um por linha, de acordo com as consultas
+realizadas pelos candidatos.
+
+
+I - 
+Labirinto
+Autor: Pedro Vidal
+Um dos jogos antigos do MS-DOS era o wolfenstein 3D, onde o personagem se encontrava num
+labirinto com diversas portas, e precisava escapar. Por´em para escapar do labirinto era necess´ario
+encontrar chaves espec´ıficas, que abrissem as portas, at´e chegar a sa´ıda do labirinto. Cada porta
+possui um identificador ´unico, podendo ser aberta apenas por uma chave que possui o mesmo
+identificador.
+Tomado por uma sensa¸c˜ao de nostalgia, vocˆe decidiu escrever um programa que diz, dados os
+identificadores de chaves encontradas, e os identificadores de portas que ainda est˜ao fechadas, se ´e
+poss´ıvel ou n˜ao sair do labirinto.
+Entrada
+A primeira linha da entrada consiste em um ´unico inteiro N, que corresponde ao n´umero de chaves
+que vocˆe encontrou. A segunda linha consiste em N inteiros, os identificadores das chaves encontradas, ordenados de maneira crescente.
+A pr´oxima linha cont´em um inteiro Q, o n´umero de portas que ainda est˜ao fechadas. A pr´oxima
+linha contˆem Q inteiros X, os identificadores de cada porta.
+Sa´ıda
+Ao final do programa, vocˆe deve imprimir em uma ´unica linha, “Sim” caso seja poss´ıvel sair do
+labirinto, ou “N˜ao”, caso contr´ario.
+
+
+J - 
+Carteiro
+Um carteiro é o responsável por entregar as encomendas na rua de Joãozinho. Por política da
+empresa, as encomendas devem ser entregues na mesma ordem que foram enviadas, mesmo que
+essa não seja a forma mais rápida. Cansado de subir e descer aquela rua tantas vezes, nosso amigo
+quer mostrar à empresa quanto tempo ele leva para entregar as encomendas, na tentativa de derrubar
+essa política.
+A rua de Joãozinho tem N casas. Naturalmente, as casas são numeradas de forma ordenada (não
+necessariamente por números consecutivos). Como as casas possuem aproximadamente o mesmo
+tamanho, você pode assumir que o carteiro leva uma unidade de tempo para caminhar de uma casa
+até a casa imediatamente vizinha.
+Há M encomendas para essa rua, que devem ser entregues na mesma ordem em que chegaram.
+Cada encomenda contém o número da casa onde deve ser entregue.
+Escreva um programa que determine quanto tempo o carteiro levará para entregar todas as encomendas, assumindo que quando o tempo começa a contar, ele está na primeira casa (a de menor
+número), e o tempo termina de contar quando todas as encomendas foram entregues (mesmo que o
+carteiro não esteja de volta na primeira casa). Você pode desprezar o tempo para colocar a encomenda na caixa de correio (ou seja, se ele só tiver uma encomenda, para a primeira casa, a resposta
+para o problema é zero).
+Entrada
+A primeira linha contém dois inteiros, N e M , respectivamente o número de casas e o número de
+encomendas. A segunda linha contém N inteiros em ordem estritamente crescente, indicando os
+números das casas. A terceira linha contém M inteiros indicando os números das casas onde as
+encomendas devem ser entregues, na ordem dada na entrada.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o tempo que o carteiro
+levará para entregar todas as encomendas na ordem correta, assumindo que ele começa na casa de
+menor número. 
+
+
