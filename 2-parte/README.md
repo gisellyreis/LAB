@@ -208,3 +208,36 @@ levará para entregar todas as encomendas na ordem correta, assumindo que ele co
 menor número. 
 
 
+N - 
+Missão Jedi (use fila de prioridade)
+Há muito tempo atrás em uma galáxia
+muito muito distante, por mais de mil gerações,
+os Cavaleiros Jedi foram os guardiões da paz e
+da justiça na Velha República. Antes dos tempos
+sombrios.
+Os Jedi podiam aprender vários tipos de
+poderes ao estudar sobre o “lado da luz” da
+Força. A facilidade em aprender cada habilidade
+varia, e tornar-se um Jedi requer o mais profundo
+comprometimento e mente astuta. A Ordem Jedi
+era uma ordem hierárquica indo desde Jedi
+Iniciado, Jedi Padawan, até o Grande Mestre,
+sendo Yoda um exemplo. Portanto, dentro da hierarquia existiam muitos Jedi com diferentes
+níveis de XP. Para permitir um bom aprendizado dos poderes, várias missões eram realizadas,
+aumentando o XP do Jedi caso este cumprisse a missão. Para atribuir uma missão, era
+escolhido o Jedi com menor XP e assim aquele Jedi aumenta seu XP, permitindo uma ordem
+Jedi mais equilibrada. Em caso de empate no XP era usado o nome como critério de
+desempate, seguindo ordem alfabética. Sabendo que seu poder era descobrir qual Jedi
+possuía o menor XP, você foi escolhido para ajudar na distribuição das missões. Que a força
+esteja com você Padawan.
+Entrada
+Seu programa receberá primeiramente um inteiro ‘N’ (1 ≤ ‘N’ ≤ 10000), a quantidade
+de Jedi na hierarquia. A seguir serão dadas ‘N’ linhas, onde em cada uma serão dados os
+nomes dos Jedi com seus respectivos níveis de XP (inteiro). Na sequência será dado um inteiro
+‘M’ (1 ≤ ‘M’ ≤ 10000), representando o número de missões. A seguir serão dados ‘M’ números
+inteiros ‘Mi’ representando o quanto de XP que aquela missão dará ao Jedi que a cumprir.
+Saída
+Ao final das missões de treinamento seu programa deverá imprimir um Jedi por linha,
+ordenados do menor para o maior XP.
+
+
